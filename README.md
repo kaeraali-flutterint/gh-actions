@@ -127,14 +127,14 @@ To enable you need to ensure a few things first:
     on:
       push:
         branches:
-          - master
+          - main
     jobs:
       docs:
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v3
           with:
-            ref: master
+            ref: main
     ```
 
 ### Outputs
